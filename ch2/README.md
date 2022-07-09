@@ -17,7 +17,7 @@
 
 파이썬에선 아래 이미지와 같이 각각의 요소들이 연속적으로 이어진 자료형을 시퀀스 자료형(sequence types) 라고 합니다. (bytes 와 bytearray 도 있습니다)
 
-![sequence](./img/sequence.png)
+![sequence](../img/sequence.png)
 
 파이썬에서는 각각의 값들을 요소(element) 라고 부릅니다.
 시퀀스 자료형으로 만든 객체를 시퀀스 객체라고 하며, 각각의 값이 요소 입니다.
