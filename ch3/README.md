@@ -33,3 +33,8 @@
 ### chaining
 ![sequence](../img/chaining.png)
 같은 해시값이 들어오면 체인 모양의 연결 리스트로 연결하는 방법
+
+### Open Addressing
+### 선형 조사
+![sequence](../img/OpenAddressing.png)
+같은 해시값이 들어오면 해시값에 + 1을 더해서 다음 해시테이블에 저장
