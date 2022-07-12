@@ -10,3 +10,7 @@
 * 해시법 
   * chainin
   * open addressing
+
+## ch4 스택과 큐
+* 스택
+* 큐
