@@ -28,6 +28,6 @@ def set(i: int) -> None:
                 set(i + 1)      # 다음 열에 퀸을 놓기
                 flag_a[j] = flag_b[i + j] = flag_c[i - j + 7] = False
 
-cnt = 100
+
 set(0)          # 0 열에 퀸을 놓기
 print(f'총 횟수 : {cnt}')
