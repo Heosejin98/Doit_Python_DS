@@ -1,5 +1,4 @@
 # 버블 정렬 알고리즘 구현하기
-
 from typing import MutableSequence
 
 def bubble_sort(a: MutableSequence) -> None:
@@ -11,15 +10,11 @@ def bubble_sort(a: MutableSequence) -> None:
  
 if __name__ == '__main__':
     print('버블 정렬을 수행')
-    num = int(input('원소 수 입력 : '))
-    x = [None] * num
-
-    for i in range(num):
-        x[i] = int(input(f"x[{i}] = "))
+    x = [6, 4, 3, 7, 1, 9, 8]
 
     print(x)
     bubble_sort(x)
 
     print('오름차순 정렬')
-    for i in range(num):
-        print(f'x[{i}] = {x[i]}')
+    for i, value in enumerate(x):
+        print(f'x[{i}] = {value}')
